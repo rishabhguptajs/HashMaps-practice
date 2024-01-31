@@ -88,10 +88,13 @@ public class trying {
 //            System.out.println("Key: " + e.getKey() + " Value: " + e.getValue());
 //        }
 
-//        adding element to hashmap - time complexity [O(1)]
-//        removing element to hashmap - time complexity [O(1)]
-//        extracting element from hashmap - time complexity [O(1)]
+//        adding element to hashmap - time complexity [O(1)], map.put(key)
+//        removing element to hashmap - time complexity [O(1)], map.remove(key)
+//        extracting element from hashmap - time complexity [O(1)], map.get(key)
 
 //        map.equals -> compares an object with a map for checking if they're equal or not
+//        map.containsKey(key) -> time complexity [O(1)] - average case, [O(n)] -> worst case
+//        map.clone() -> returns a cloned map containing same values as "map"
+//        map.clear() -> removes all the mappings and values or elements inside "map"
     }
 }
